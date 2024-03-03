@@ -65,7 +65,7 @@ var config_data = `
   ],
   "auton": [
     { "name": "Auton Note Pickup",
-      "code": "tsp",
+      "code": "anp",
       "type": "clickable_image",
       "filename": "2024/field_image.png"
     }, 
@@ -104,8 +104,8 @@ var config_data = `
       "code": "tms",
       "type": "counter"
     },
-    { "name": "Times Penalized",
-      "code": "pen",
+    { "name": "Fouls",
+      "code": "tf",
       "type": "counter"
     }, 
     { "name": "Pickup From",
@@ -138,7 +138,7 @@ var config_data = `
       "defaultValue": "x"
     },
     {
-      "name": "Spotlight?",
+      "name": "Chain Spotlighted?",
       "code": "spt",
       "type": "bool"
     },
