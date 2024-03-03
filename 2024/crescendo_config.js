@@ -64,6 +64,11 @@ var config_data = `
     }
   ],
   "auton": [
+    { "name": "Auton Note Pickup",
+      "code": "tsp",
+      "type": "clickable_image",
+      "filename": "2024/field_image.png"
+    }, 
     { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
@@ -75,10 +80,6 @@ var config_data = `
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
-    },
-    { "name": "Center Note Pickup",
-      "code": "act",
-      "type": "bool"
     }
   ],
   "teleop": [
@@ -97,6 +98,10 @@ var config_data = `
     },
     { "name": "Speaker Scores (Amplified)",
       "code": "tsa",
+      "type": "counter"
+    },
+    { "name": "Missed Shots",
+      "code": "tms",
       "type": "counter"
     },
     { "name": "Times Penalized",
