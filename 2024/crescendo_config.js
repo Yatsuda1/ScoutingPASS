@@ -142,9 +142,9 @@ var config_data = `
       "code": "spt",
       "type": "bool"
     },
-    { "name": "Note in Trap",
+    { "name": "Note(s) in Trap",
       "code": "nit",
-      "type": "bool"
+      "type": "counter"
     }
   ],
   "postmatch": [
