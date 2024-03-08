@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024week0"
+      "defaultValue": "2024milac"
     },
     { "name": "Match Level",
       "code": "l",
