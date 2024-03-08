@@ -23,8 +23,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
-        "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
+        "t": "Tank<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
@@ -35,16 +34,6 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 50
-    },
-    { "name": "Note Pickup",
-      "code": "npu",
-      "type": "radio",
-      "choices": {
-        "f": "Floor<br>",
-        "p": "Player Station<br>",
-        "b": "Both"
-      },
-      "defaultValue": "b"
     },
     { "name": "Climb",
       "code": "clm",
